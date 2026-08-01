@@ -1,8 +1,24 @@
 aid: photobox
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/photobox.png
 name: Photobox
-description: 'Photobox is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Photobox is Europe''s leading e-commerce retailer of personalised photo products and gifts,
+  serving tens of millions of customers across the UK and continental Europe. Its consumer web and mobile
+  apps let people upload photos and create photo books, wall art, canvas prints, calendars, cards, mugs and
+  other personalised gifts for home delivery. Backed by Insight Partners. As of this enrichment pass Photobox
+  publishes no public developer program, API documentation, SDKs, or partner API surface; its verified GitHub
+  organization contains only two forked operations utilities. This profile therefore captures company identity
+  and public web properties rather than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/photobox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Photo Printing
+- Personalised Gifts
+- E-commerce
+- Photo Books
+- Retail
+- Europe
 apis: []
+common:
+- type: Website
+  url: https://www.photobox.co.uk/
+- type: GitHubOrganization
+  url: https://github.com/photobox
+- type: PrivacyPolicy
+  url: https://www.photobox.co.uk/privacy-policy
+- type: TermsOfService
+  url: https://www.photobox.co.uk/terms-conditions
+- type: About
+  url: https://www.photobox.co.uk/about
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
